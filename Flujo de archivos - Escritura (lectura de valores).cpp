@@ -7,7 +7,7 @@ int main() {
     int num;
     FILE *archivo;  // Declaración de un puntero de archivo
 
-    archivo = fopen("archivo1.txt", "r");  // Abre el archivo "valores.txt" en modo lectura
+    archivo = fopen("valores.txt", "r");  // Abre el archivo "valores.txt" en modo lectura
 
     if (archivo == NULL) {  // Comprueba si hubo un error al abrir el archivo
         perror("Error al abrir el archivo");
